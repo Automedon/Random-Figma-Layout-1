@@ -1,0 +1,3 @@
+mutation AddFile($picture: Upload!) {
+  addFileToDB(picture: $picture)
+}
